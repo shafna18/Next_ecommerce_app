@@ -1,0 +1,25 @@
+.detailContainer {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 600px;
+}
+.imageContainer img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+.infoContainer {
+    flex: 1;
+}
+.infoContainer h2 {
+    margin-bottom: 20px;
+}
+.button{
+  background-color: black;
+  color: white;
+  width: 200px;
+  padding: 20px;
+}
+.button:hover{
+  background-color: lightslategray;
+}
